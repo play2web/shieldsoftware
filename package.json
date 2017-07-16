@@ -1,0 +1,50 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "Demo app",
+  "main": "_references.js",
+  "dependencies": {
+    "browser-sync": "^2.12.12",
+    "fs": "^0.0.2",
+    "git": "^0.1.5",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-ignore": "^2.0.1",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "3.1.0",
+    "gulp-scss": "1.4.0",
+    "gulp-real-favicon": "^0.2.1",
+    "gulp-rename": "1.2.2",
+    "gulp-util": "^3.0.7",
+    "gulp-plugin": "0.0.17",
+    "gulp-concat": "2.6.1",
+    "vinyl-ftp": "^0.5.0",
+    "gulp-clean": "0.3.2",
+    "run-sequence": "1.2.2",
+    "gulp-html-replace": "1.6.1",
+    "gulp-replace": "0.5.4",
+    "gulp-if": "2.0.1",
+    "gulp-watch": "4.3.11",
+    "bootstrap-sass": "3.3.7",
+    "jquery": "3.2.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miomir Dancevic",
+  "license": "ISC",
+  "-vs-binding": {
+    "ProjectOpened": [
+      "install"
+    ]
+  }
+}
