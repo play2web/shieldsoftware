@@ -12,6 +12,7 @@ class Products extends Controller
     {				
 		$products = $this->model->getAllProducts();
 		$companies = $this->model->getAllCompanies();
+		$company_id = 1;
 		$companyName= "all companies";
 			
 		require APP . 'view/_templates/header.php';
